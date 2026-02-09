@@ -5,6 +5,8 @@
 
 Bu projede, haber başlıklarını ve metinlerini önceden tanımlı kategorilere ayırmak için fine-tune edilmiş BERT modeli kullanılmıştır. Model, çok sınıflı metin sınıflandırma problemi üzerinde eğitilmiş ve güçlü genelleme performansı göstermiştir.
 
+
+
 🚀 Proje Özeti
 
 Model: BERT (Transformer)
@@ -13,11 +15,15 @@ Problem: Çok sınıflı metin sınıflandırma
 
 Framework: PyTorch + HuggingFace Transformers
 
+
+
 Değerlendirme Metrikleri: Accuracy, F1-score, Training/Validation Loss
 
 📊 Model Performansı
+
 🔹 Epoch Bazlı Sonuçlar
-Epoch	Training Loss	Validation Loss	Accuracy	F1
+
+Epoch	  Training Loss	 Validation  Loss	 Accuracy	 F1
 
 1	1.1581	1.0687	0.6905	0.6780
 
@@ -25,9 +31,14 @@ Epoch	Training Loss	Validation Loss	Accuracy	F1
 
 3	0.7618	0.9840	0.7125	0.7066
 
+
 ✔ Stabil öğrenme
+
 ✔ Overfitting gözlemlenmedi
+
 ✔ Güçlü genelleme performansı
+
+
 
 🔹 En Başarılı Kategoriler (F1 Skoru)
 
@@ -56,6 +67,8 @@ git clone https://github.com/kullaniciadi/proje-adi.git
 cd proje-adi
 pip install -r requirements.txt
 
+
+
 ▶️ Kullanım
 Modeli eğitmek:
 python train.py
@@ -65,6 +78,8 @@ python evaluate.py
 
 Yeni metinle tahmin yapmak:
 python predict.py --text "Yeni teknolojiler sağlık sektörünü dönüştürüyor"
+
+
 
 🧠 Eğitim Süreci
 
@@ -80,6 +95,8 @@ Epoch sonunda validation değerlendirmesi
 
 Accuracy ve F1 takibi
 
+
+
 🔍 Overfitting Analizi
 
 Training ve validation loss birlikte düşmüştür
@@ -89,6 +106,8 @@ Epoch’lar boyunca metrikler stabil artmıştır
 Model ezberleme yapmadan öğrenmiştir
 
 ➡️ Bu durum modelin iyi genelleme yaptığını göstermektedir.
+
+
 
 🎯 Sonuç
 
