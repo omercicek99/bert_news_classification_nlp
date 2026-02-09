@@ -1,3 +1,6 @@
+<img width="1361" height="686" alt="huff-post web picture" src="https://github.com/user-attachments/assets/6880ce5a-3422-41d8-8840-2c243ae9161b" />
+
+
 🧠 BERT Tabanlı Haber Kategorisi Sınıflandırma
 
 Bu projede, haber başlıklarını ve metinlerini önceden tanımlı kategorilere ayırmak için fine-tune edilmiş BERT modeli kullanılmıştır. Model, çok sınıflı metin sınıflandırma problemi üzerinde eğitilmiş ve güçlü genelleme performansı göstermiştir.
