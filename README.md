@@ -15,8 +15,11 @@ Değerlendirme Metrikleri: Accuracy, F1-score, Training/Validation Loss
 📊 Model Performansı
 🔹 Epoch Bazlı Sonuçlar
 Epoch	Training Loss	Validation Loss	Accuracy	F1
+
 1	1.1581	1.0687	0.6905	0.6780
+
 2	0.9086	0.9883	0.7103	0.7036
+
 3	0.7618	0.9840	0.7125	0.7066
 
 ✔ Stabil öğrenme
