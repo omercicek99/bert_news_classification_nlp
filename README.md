@@ -40,6 +40,9 @@ Epoch	  Training Loss	 Validation  Loss	 Accuracy	 F1
 
 
 
+
+
+
 🔹 En Başarılı Kategoriler (F1 Skoru)
 
 STYLE & BEAUTY → 0.872
